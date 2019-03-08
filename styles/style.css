@@ -1,0 +1,294 @@
+/* Hover on links */
+
+a:hover {
+    color: #60ff00 !important;
+    /* ça marche pas sur le menu, à voir doc bootstrap (on verra demain) */
+    /* Hover Responsive */
+}
+
+/* Hover Responsive */
+
+/* Hover Responsive */
+
+a:focus {
+    color: #60ff00 !important;
+}
+
+a:active {
+    color: #60ff00 !important;
+}
+
+a:focus {
+    color: #60ff00 !important;
+}
+
+a:active {
+    color: #60ff00 !important;
+}
+
+h1 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 400%
+}
+
+h2 {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+h3 {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+
+/******************** carousel ***************/
+
+.carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    background-image: url("https://i.ibb.co/j5x1jLT/Abstract-Background-B-W.jpg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: none;
+    font-family: 'Manuale', serif;
+    font-size: 3vh;
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+element.style {
+    width: 70vh;
+}
+/********************** Modif sur la page index *************/
+.searchnav {
+    margin-left: 100px;
+}
+blogt
+.navbar-toggler {
+    margin-top: 4px;
+}
+
+#ulindex {
+    margin-right: 2vh;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+#navnav {
+    background-color: rgba(95, 90, 90, 0.726);
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#footfoot {
+    background-color: rgba(95, 90, 90, 0.788);
+    ;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#ajustcard {
+    margin-top: 8%;
+    }
+
+
+/****************** Modif sur la page Contact *********************/
+
+#sendcontact {
+    margin-top: 10px;
+}
+
+#aboutus {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#contactus {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#photoprofil {
+    border-radius: 10px;
+    margin-top: 80px;
+    max-width: 100%;
+    height: auto;
+}
+
+#contact {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#encadre {
+    background-color: white;
+    opacity: 0.72;
+    padding: 20px;
+}
+
+#encadre:hover {
+    opacity: 1;
+}
+
+/* Products CSS */
+
+.dropdown {
+    margin-top: 2em;
+}
+
+.test {
+    margin-top: 100em;
+}
+
+#dropdownProduct {
+    margin-top: 10%;
+}
+.vcenter {
+    margin-top: 6%;
+}
+
+.containerTitle {
+    margin-top: 2em;
+}
+
+#dropdownProduct h1 {
+    font-size: 2em;
+}
+
+#dropdownProduct h2 {
+    font-size: 2em;
+}
+
+#titrePageProducts {
+    padding-top: 2em;
+}
+
+.card-deck {
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.cardProduct {
+    border: 5px solid hsl(15, 20%, 50%);
+    border-radius: 5px;
+}
+
+.card-img-overlay {
+    margin-left: 7em;
+}
+
+
+.marged-top {
+    margin-top: 110px;
+}
+
+/*-------------------- Media queries  --------------------------------*/
+
+.paddingsearch {
+    padding-top: 10px;
+}
+
+.writenav {
+    margin-top: 3px;
+}
+
+li {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+    .navbar-collapse {
+        text-align: right;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .buttonright {
+        float: right;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .paddingsearch {
+        float: right;
+    }
+}
+
+/****************** Modif sur la page About me *********************/
+#aboutme {
+    margin-top: 10%;
+}
+
+@media screen and (max-width: 572px) {
+    .buttonav {
+        float: right;
+    }
+}
+    /****************** Modif sur la page About me *********************/
+    #aboutme {
+        margin-top: 10%;
+        font-family: 'Fjalla One', sans-serif;
+    }
+    .buttonctc {
+        padding: 1%;
+        margin-bottom: 2%;
+        margin-left: 14px;
+    }
+    .textcard {
+        margin-top: 2%;
+        margin-left: 14px;
+    }
+    /****************** Modif sur la page Contact me*********************/
+    #contactme {
+        margin-top: 10%;
+        font-family: 'Fjalla One', sans-serif;
+    }
+    /****************** Modif sur la page BLOG*********************/
+#blogt {
+    font-size: 400%;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.longcard{
+    padding-top: 10%;
+}
+
+#botomarge{
+    margin-bottom: 50px;
+} 
+
+h5{
+    color: #E87E77;
+    font-weight: bold;
+    text-decoration:  underline;
+}
+
+#signuser{
+    text-align: right;
+    margin-right: 30px;
+}
+
+#stevej{
+    color:#7DCB85;
+}
+
+a{
+    color: white;
+}
+
+#jumbohome{
+    text-align: center;
+}
+
+.MargeBlog{
+    margin-top: 10px;
+}
